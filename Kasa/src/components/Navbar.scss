@@ -1,0 +1,93 @@
+@use"../scss/variables.scss" as colors;
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
+// .navbar{
+//    display: flex;
+//    justify-content: space-between; 
+//    align-items:center;
+//    padding: 0 3rem;
+//    margin-bottom: 40px;
+//   color: colors.$color-primary;
+//   @media screen and (max-width: 810px){
+//     text-transform: uppercase;
+//     font-weight: 400;
+//   }
+// }
+// .menu{
+//   display: flex;
+//   gap: 20px;
+  
+// }
+// .menu>a{
+//   text-decoration: none;
+//   //  margin-left: 20px;
+//   color: var(--red);
+// }
+
+// .navbar a:hover{
+//   text-decoration: underline;
+// }
+// .navbar a.active{
+//   text-decoration: underline ;
+// }
+
+
+// @use "../scss/variables.scss" as colors;
+
+// .navbar {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   padding: 0 3rem;
+//   margin-bottom: 40px;
+//   color: colors.$color-primary;
+
+//   a {
+//     text-decoration: none;
+//     color: colors.$color-primary; // Assurez-vous d'utiliser la variable de couleur appropriée
+//   }
+
+//   a:hover, a.active {
+//     text-decoration: underline;
+//   }
+
+//   @media screen and (max-width: 810px) {
+//     text-align: center;
+//     padding: 1rem; // Ajoutez un padding approprié pour les petits écrans
+//   }
+
+//   @media screen and (max-width: 465px) {
+//     .navbar {
+//       flex-direction: row;
+//       text-align: center;
+//       padding: 1rem; // Ajoutez un padding approprié pour les petits écrans
+//     }
+
+//     .menu {
+//       flex-direction: row;
+//       align-items: center;
+//       justify-content: space-around;
+//     }
+//   }
+// }
+
+// .menu {
+//   display: flex;
+//   gap: 20px;
+
+//   @media screen and (max-width: 810px) {
+//     flex-direction: row; // Assurez-vous que la direction reste en ligne
+//     justify-content: center;
+//     align-items: center;
+//   }
+// }
+
+

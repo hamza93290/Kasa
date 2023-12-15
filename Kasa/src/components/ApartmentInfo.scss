@@ -1,0 +1,54 @@
+@use"../scss/variables.scss" as colors;
+.apartment__box{
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width: 810px){
+    flex-direction: column;
+  }
+  .apartment__owner{
+    margin-top: 20px;
+    @media screen and (max-width: 810px) {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+    }
+  }
+  .apartment__owner__info{
+    display: flex;
+    gap: 10px;
+  } 
+  .apartment__owner__name{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    line-height: 20px;
+    align-self: center;
+    color: colors.$color-primary;
+  }
+  .apartment__owner__circle img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+  }
+  .apartment__owner__stars{
+    display: flex;
+    font-size: 30px;
+    margin-left: 7px;
+    color: #C4C4C4;
+    .on{
+      color: colors.$color-primary;
+    }
+  }
+}
+ .apartment__spans{
+  display: flex;
+  gap: 10px;
+  span{
+    background-color: colors.$color-primary;
+    color: colors.$color-secondary;
+    padding: 1px 30px;
+    border-radius: 10px;
+  }
+  
+}

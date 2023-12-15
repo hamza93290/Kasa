@@ -1,0 +1,19 @@
+@use"../scss/variables.scss" as colors;
+
+.grid {
+  background-color: colors.$color-secondary;
+  min-height: 50vh;
+  border-radius: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: space-evenly
+}
+@media screen and (width <= 768px) {
+  .grid{
+    justify-content:center;
+    background-color: white;
+    padding: 0;
+  }
+}

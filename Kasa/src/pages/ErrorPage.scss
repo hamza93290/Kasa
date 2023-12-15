@@ -1,0 +1,15 @@
+@use"../scss/variables.scss" as colors;
+.error__page{
+  color: colors.$color-primary;
+  text-align: center;
+  h1{
+    font-size: 10rem;
+  }
+  h2{
+    font-size : 28px;
+    font-weight: 400;
+  }
+  a{
+    color: colors.$color-primary;   
+  }
+}

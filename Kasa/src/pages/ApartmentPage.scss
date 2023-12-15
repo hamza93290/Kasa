@@ -1,0 +1,25 @@
+@use"../scss/variables.scss" as colors;
+
+.apartment-page{
+  // color: colors.$color-primary;
+  h1{
+    font-weight:500;
+    margin-bottom: 5px;
+    font-size: 42px;
+    margin-top: 10px;
+  }
+  h2{
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .apartment__title {
+    color: colors.$color-primary;
+  }
+  
+  .ApartmentDescriptionTwoBox{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+  }
+}
